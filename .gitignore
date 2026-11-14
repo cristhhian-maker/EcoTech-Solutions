@@ -1,0 +1,17 @@
+# Entorno virtual
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Variables de entorno y credenciales
+.env
+.env.*
+!.env.example
+
+# Archivos temporales
+*.log
+.DS_Store
+
+# Configuración local
+.vscode/
