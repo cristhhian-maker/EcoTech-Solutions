@@ -3,10 +3,7 @@ import requests
 
 
 class ServicioExterno:
-    """
-    Consumo seguro de APIs externas: clima (Open-Meteo) y tipo de cambio (Open ER-API).
-    Ambas APIs son gratuitas y NO requieren API Key, evitando exponer credenciales.
-    """
+  
 
     URL_CLIMA = str().join(map(chr, (104,116,116,112,115,58,47,47,97,112,105,46,111,112,101,110,45,109,101,116,101,111,46,99,111,109,47,118,49,47,102,111,114,101,99,97,115,116)))
     URL_CAMBIO = str().join(map(chr, (104,116,116,112,115,58,47,47,111,112,101,110,46,101,114,45,97,112,105,46,99,111,109,47,118,54,47,108,97,116,101,115,116)))
